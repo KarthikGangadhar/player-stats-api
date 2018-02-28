@@ -1,0 +1,42 @@
+{
+  "name": "player-stats-api",
+  "version": "1.0.0",
+  "description": "This is a REST API create using hapi and mangoose to maintains athletes profiles",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarthikGangadhar/profile-api.git"
+  },
+  "keywords": [
+    "jwt-token",
+    "hapi",
+    "rest",
+    "mango",
+    "swagger"
+  ],
+  "author": "kgangadhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarthikGangadhar/profile-api/issues"
+  },
+  "homepage": "https://github.com/KarthikGangadhar/profile-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "hapi": "^13.0.0",
+    "hapi-swagger": "^6.0.0",
+    "inert": "^4.1.x",
+    "joi": "^10.1.0",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.6",
+    "morgan": "^1.9.0",
+    "vision": "^4.1.x"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.4.2"
+  }
+}
